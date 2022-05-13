@@ -26,6 +26,7 @@ export const TitleAction = styled.h2`
   font-weight: 500;
   font-size: var(--heading1);
   line-height: 72px;
+  color: var(--color-text-title);
   margin: 0 30px 0 30px;
 `;
 
