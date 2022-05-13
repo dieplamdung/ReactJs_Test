@@ -60,6 +60,16 @@ export const WrapCard = styled.div`
     width: 100%;
     height: auto;
   }
+
+  p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+
+    padding: 0 32px;
+  }
 `;
 
 export const Shadow1 = styled.div`

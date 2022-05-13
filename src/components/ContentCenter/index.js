@@ -19,7 +19,11 @@ function ContentCenter({ onGetCard, disableBtnChooseCard, itemCard }) {
       <WrapContent>
         <WrapContentCard>
           <WrapCard>
-            <img src={itemCard?.image} />
+            {!!itemCard?.image ? (
+              <img src={itemCard?.image} />
+            ) : (
+              <p>CARD IMAGE SHOULD BE HERE</p>
+            )}
           </WrapCard>
           <Shadow1 />
           <Shadow2 />
